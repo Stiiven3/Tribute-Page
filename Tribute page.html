@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="Tribute.css">
+    <title>Tribute One Piece</title>
+</head>
+<body>
+    <header class="Header">
+
+        <div class="Box-menu" >
+
+            <div class="nav-logo">
+
+                <img src="Imagenes/Logo.png" alt="">
+            </div>
+           
+
+            <nav class="navegacion">
+
+                
+                
+                <input type="checkbox" id="check">
+               
+
+
+                <ul class="control-lista">
+                    <li class="Home"> <a href="#home" target="_blank"><i class="fa-solid fa-house"></i>Home</a> </li>
+                    <li class="About"><a href="#about" target="_blank"><i class="fa-solid fa-person"></i>About</a> </li>
+                    <li class="Footer"><a href="#footer" target="_blank"><i class="fa-solid fa-shoe-prints"></i>Footer</a> </li>
+                </ul>
+
+                
+                <label for="check" class="checkbt">
+
+                    <i class="fa-solid fa-bars"></i>
+
+                </label>
+
+            </nav>
+
+        </div>
+
+    </header>
+    <main class="box-main">
+
+        <section id="home">
+            <div class="box-home-control">
+
+              <div class=" box-canvas">
+                        <div class="box">
+
+                            <H1>ONE PIECE</H1>
+                            
+                        </div>
+
+                        <div class="box-parrafo" >
+
+                            <p>
+                                One piece Es la historia de un chico Llamado <span>Monkey D. Luffy</span>,Quien se inspiro en
+                                Shanks, un pirata que le salvo la vida, para convertirse en el rey de los piratas.
+                            </p>
+
+                            <a href="https://onepiece.fandom.com/es/wiki/One_Piece_(anime)" class="btn">  Mas información</a>
+                        </div>
+                </div>
+            </div>
+        </section>
+
+        <section >
+             <h2 class="titulo " id="about">About</h2>
+            
+            <div class=" control-target">
+
+               
+                <div class="zoro  target" >
+                    <P class="Trio">Zoro</P>
+                    <img class="Trio-Mostruoso" src="Imagenes/Zoro.jpg" alt="">
+
+                    <p>
+                        Zoro generalmente viste una camisa blanca, pantalones verde oscuro, aunque son tan oscuros que solo se ve la silueta verde, botas del mismo color y usa un haramaki (faja), armadura tradicional de los samurái.
+                    
+                     </p>
+
+                     <a href="https://es.wikipedia.org/wiki/Roronoa_Zoro" class="links">Leer mas</a>
+                </div>
+
+                <div class="luffy target" >
+                   
+                    <P class="Trio">Luffy</P>
+                    <img class="Trio-Mostruoso" src="Imagenes/Luffy.jpg" alt="">
+
+                    Luffy es un joven de 19 años (actualmente) y su fecha de nacimiento es el 5 de mayo. Es delgado y mide 1,74 m (5′ 9″) de altura. Su cabello es negro y corto, tiene una cicatriz bajo el ojo izquierdo, 
+                    que se hizo a sí mismo durante su niñez para demostrarle a Shanks que él es un hombre. 
+
+                    <a class="links" href="https://es.wikipedia.org/wiki/Monkey_D._Luffy">Leer mas</a>
+                  
+                </div>
+
+                <div class="sanji target" >
+
+                    
+                    <P class="Trio">  Sanji</P>
+                    <img  class="Trio-Mostruoso"src="Imagenes/Sanji.jpg" alt="">
+
+                    <p>
+                        Sanji es un hombre alto (midiendo 1'77 cm al inicio de la serie y 1'80 cm después del salto temporal) y delgado. Antes del salto temporal tenía el ojo izquierdo
+                        permanentemente oculto por su cabello rubio.  </p>
+                  
+                        <a class="links" href="https://es.wikipedia.org/wiki/Sanji">Leer mas</a>
+
+                </div>
+    
+            </div>
+           
+        </section>
+
+        <section class="sec-histo">
+             <h2 class="titulo">Historia</h2>
+        <div class="sec-histo-control">
+            <div class="history">
+
+                <img class="Mugi" src="Imagenes/Mugiwara.jpg" alt="">
+
+                <p class="Mugitext">Los Mugiwaras o los sombrero de paja son la banda protagonista de One Piece, ellos a lo largo de su aventura han logrado la hazaña increíble de llegar al nuevo mundo para así conseguir el One Piece, esta tripulación no es muy grande pero sí cuenta en sus filas con los mejores profesionales del mundo en cada función del barco como: La mejor navegante del mundo, el mejor cocinero del mundo, el mejor médico del mundo, el mejor carpintero del mundo, el mejor músico del mundo, la mejor arqueologa del mundo, el futuro mejor espadachín del mundo, el futuro mejor francotirador y el Próximo rey de los piratas.</p>
+            </div>
+        </div>
+        </section>
+    </main>
+
+
+    <footer id="footer">
+        <P class="crear">Creador de la web</P>
+        <p class="crear">Steven Orozco</p>
+        <img class="Logo-footer" src="Imagenes/One-Piece-Logo-1247173038.png" alt="">
+        <p class="T">Tribute Page</p>
+        <p class="O">One piece</p>
+    </footer>
+
+    <script>
+        const nav = document.getElementById('navegacion');
+        window.addEventListener('scroll', () => {
+        if (window.scrollY >= 100) {
+        nav.classList.add('nav__black');
+        } else {
+         nav.classList.remove('nav__black');
+        }
+       });
+    </script>
+</body>
+
+</html>
